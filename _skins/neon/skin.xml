@@ -1,0 +1,145 @@
+<theme>
+	<formatVersion>4</formatVersion>
+
+	<view name="system, basic, detailed, video">
+
+		<image name="background">
+			<path>./img/background.png</path>
+		</image>
+
+		<image name="border" extra="true">
+			<color>FFFFFFFF</color>
+		</image>
+
+		<image name="border_glow" extra="true">
+			<size>1 1</size>
+			<pos>0 0</pos>
+			<color>FF000080</color>
+		</image>
+<!--
+Hex Opacity Values
+100% — FF
+95% — F2
+90% — E6
+85% — D9
+80% — CC
+75% — BF
+70% — B3
+65% — A6
+60% — 99
+55% — 8C
+50% — 80
+45% — 73
+40% — 66
+35% — 59
+30% — 4D
+25% — 40
+20% — 33
+15% — 26
+10% — 1A
+5% — 0D
+0% — 00
+-->
+
+		<helpsystem name="help">
+			<textColor>DDDDDD</textColor>
+			<iconColor>DDDDDD</iconColor>
+			<fontPath>./font/font.ttf</fontPath>
+			<fontSize>0.032</fontSize>
+		</helpsystem>
+
+	</view>
+
+	<view name="system">
+
+		<image name="border" extra="true">
+			<path>./img/border_system.png</path>
+		</image>
+
+		<image name="border_glow" extra="true">
+			<path>./img/border_system_glow.png</path>
+		</image>
+
+	</view>
+
+	<feature supported="carousel">
+
+		<view name="system">
+
+			<text name="systemInfo">
+				<color>DDDDDD</color>
+				<fontSize>0.034</fontSize>
+				<fontPath>./font/font.ttf</fontPath>
+			</text>
+
+		</view>
+
+	</feature>
+
+	<view name="basic, detailed, video">
+
+		<textlist name="gamelist">
+			<selectorColor>FFFFFF40</selectorColor>
+			<selectedColor>DDDDDD</selectedColor>
+			<primaryColor>DDDDDD</primaryColor>
+			<secondaryColor>AAAAAA</secondaryColor>
+			<fontPath>./font/font.ttf</fontPath>
+			<fontSize>0.034</fontSize>
+			<lineSpacing>1.7</lineSpacing>
+		</textlist>
+
+	</view>
+
+	<view name="basic">
+
+		<image name="border" extra="true">
+			<path>./img/border_basic.png</path>
+		</image>
+
+		<image name="border_glow" extra="true">
+			<path>./img/border_basic_glow.png</path>
+		</image>
+
+	</view>
+
+	<view name="detailed, video">
+
+		<image name="border" extra="true">
+			<path>./img/border_detailed.png</path>
+		</image>
+
+		<image name="border_glow" extra="true">
+			<path>./img/border_detailed_glow.png</path>
+		</image>
+
+		<text name="md_description">
+			<color>DDDDDD</color>
+			<fontPath>./font/font.ttf</fontPath>
+			<fontSize>0.032</fontSize>
+		</text>
+
+		<text name="md_lbl_rating, md_lbl_players, md_lbl_releasedate, md_lbl_playcount, md_lbl_lastplayed, md_lbl_developer, md_lbl_publisher, md_rating, md_developer, md_publisher, md_genre, md_players, md_playcount">
+			<color>DDDDDD</color>
+			<fontPath>./font/font.ttf</fontPath>
+			<fontSize>0.032</fontSize>
+		</text>
+			
+		<datetime name="md_releasedate, md_lastplayed">
+			<color>DDDDDD</color>
+			<fontPath>./font/font.ttf</fontPath>
+			<fontSize>0.032</fontSize>
+		</datetime>
+
+			<text name="md_lbl_genre, md_genre">
+				<fontSize>0.05</fontSize>
+			</text>
+
+		<rating name="md_rating">
+			<filledPath>./img/rating_full.png</filledPath>
+			<unfilledPath>./img/rating_hollow.png</unfilledPath>
+		</rating>
+
+
+	</view>
+	
+</theme>

@@ -1,0 +1,104 @@
+<theme>
+	<formatVersion>4</formatVersion>
+
+	<view name="system, basic, detailed, video">
+
+		<image name="background">
+			<color>212121FF</color>
+			<path>./img/background.png</path>
+		</image>
+
+		<image name="border" extra="true">
+			<color>c8c8c8FF</color>
+		</image>
+
+		<helpsystem name="help">
+			<textColor>c8c8c8</textColor>
+			<iconColor>c8c8c8</iconColor>
+			<fontPath>./font/font.ttf</fontPath>
+			<fontSize>0.024</fontSize>
+		</helpsystem>
+
+	</view>
+
+	<view name="system">
+
+		<image name="border" extra="true">
+			<path>./img/border_system.png</path>
+		</image>
+
+	</view>
+
+	<feature supported="carousel">
+
+		<view name="system">
+
+			<text name="systemInfo">
+				<color>FFFFFF</color>
+				<fontSize>0.026</fontSize>
+				<fontPath>./font/font.ttf</fontPath>
+			</text>
+
+		</view>
+
+	</feature>
+
+	<view name="basic, detailed, video">
+
+		<textlist name="gamelist">
+			<selectorColor>FFFFFF40</selectorColor>
+			<selectedColor>DDDDDD</selectedColor>
+			<primaryColor>DDDDDD</primaryColor>
+			<secondaryColor>AAAAAA</secondaryColor>
+			<fontPath>./font/font.ttf</fontPath>
+			<fontSize>0.026</fontSize>
+			<lineSpacing>1.65</lineSpacing>
+		</textlist>
+
+	</view>
+
+	<view name="basic">
+
+		<image name="border" extra="true">
+			<path>./img/border_basic.png</path>
+		</image>
+
+	</view>
+
+	<view name="detailed, video">
+
+		<image name="border" extra="true">
+			<path>./img/border_detailed.png</path>
+		</image>
+
+		<text name="md_description">
+			<color>DDDDDD</color>
+			<fontPath>./font/font.ttf</fontPath>
+			<fontSize>0.025</fontSize>
+		</text>
+
+		<text name="md_lbl_rating, md_lbl_players, md_lbl_releasedate, md_lbl_playcount, md_lbl_lastplayed, md_lbl_developer, md_lbl_publisher, md_rating, md_developer, md_publisher, md_genre, md_players, md_playcount">
+			<color>DDDDDD</color>
+			<fontPath>./font/font.ttf</fontPath>
+			<fontSize>0.025</fontSize>
+		</text>
+			
+		<datetime name="md_releasedate, md_lastplayed">
+			<color>DDDDDD</color>
+			<fontPath>./font/font.ttf</fontPath>
+			<fontSize>0.025</fontSize>
+		</datetime>
+
+			<text name="md_lbl_genre, md_genre">
+				<fontSize>0.04</fontSize>
+			</text>
+
+		<rating name="md_rating">
+			<filledPath>./img/rating_full.png</filledPath>
+			<unfilledPath>./img/rating_hollow.png</unfilledPath>
+		</rating>
+
+
+	</view>
+	
+</theme>
