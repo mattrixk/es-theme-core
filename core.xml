@@ -196,7 +196,7 @@ license:		creative commons CC-BY-NC-SA
 		<view name="video">
 
 			<!-- Normal Users that just have a logo as the marquee -->
-			<!-- <video name="md_video">
+			<video name="md_video">
 				<maxSize>0.30 0.53</maxSize>
 				<pos>0.50 0.57</pos>
 				<origin>0.5 1</origin>
@@ -215,10 +215,10 @@ license:		creative commons CC-BY-NC-SA
 				<maxSize>0.30 0.53</maxSize>
 				<pos>0.50 0.57</pos>
 				<origin>0.5 1</origin>
-			</image> -->
+			</image>
 
 			<!-- MattrixK - My marquee is a MIX image with game logo and box-art -->
-			<video name="md_video">
+			<!-- <video name="md_video">
 				<maxSize>0.30 0.53</maxSize>
 				<pos>0.50 0.305</pos>
 				<origin>0.5 0.5</origin>
@@ -237,7 +237,7 @@ license:		creative commons CC-BY-NC-SA
 				<maxSize>0.30 0.53</maxSize>
 				<pos>0.50 0.305</pos>
 				<origin>0.5 0.5</origin>
-			</image>
+			</image> -->
 			
 		</view>
 
